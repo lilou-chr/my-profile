@@ -1,0 +1,132 @@
+/* Colors and fonts */
+body{
+  background-color: white;
+  font-size: 16px;
+  font-family: 'American Typewriter', sans-serif;
+  line-height: 1;
+}
+
+body  {
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPDw8PDw8PDw8PDw0PDw8PDw8PDQ8PFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0NFQ8PFSsdFR0rKy0tLSstKy0tLS0rLSstLS0rLS0rLSstLSsrLS0rKy0tLS0rKy0rKy0tKy0tLTctK//AABEIAMIBAwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EACcQAQEBAQABAgYBBQEAAAAAAAABEQISIfAxQVFhgcGxcZHR4fED/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECBP/EABgRAQEBAQEAAAAAAAAAAAAAAAABEUEC/9oADAMBAAIRAxEAPwD2MgMOlqFiCoVz6mN1hGohPf2KYKJffr6Ne8ZtRRepicw978wOqlpYYCeSTW8WQXVno3KzYsViqqAiiAKIoEVBUARFUEUAMQUQBCVnTRcbXGTyExpm8qaDnhrdjODWomLmLgqcr4tRZBnWfE8WsUTWPFqKBqCoAAAACgKBQEQVEUAAE1NDGvIZ0FxjVk1bEwVqRMTaug0VS0ZTQ0BMWAKoAigsVBFQAABFRFAS+oEaZoDQmrFBFEEKaoM4z3fX9r1fjjPMGolo34/1A2L4pZ6r10xRIlajOtQVbWmVEKCwRlcXAAIoCoKixaIICAoCUVLCVWKiriyMaWi43qucqzv7CY3ayTrWegkalL0xFkFxGrQnINSDUFZ1ztZtFxlsiw5axUpi4AyBAAFAEUBABrSoKgAACIpa51rqufQ1IDPquI1iqctYIiy/FMFQAgprU6ZBMXyE37oGFXlJG5yi1ZBRWAFBAUABUAAEURUVFAAVBKoK59xmutjnYjUrGLINSItItQVF0TSfoFn6RJ/xRRAQAAblaZxYrKqIIogCiKAqCoAIolUUSgIAANSGIRUVz6jdrFqLGFlMINH+vsi+/X4JRRfki2+/ogfynkdM4C6nl+GsJyKg6SC4zrWCoMgQAFQFAUC0BEFRFAABLS0MKazTRcbViNaJis2NJoOZHSxzsGtSrTAUn2XFkakEtZz5J4t4omsSLIoJooKIoAgCCSqRKCqzq6GKJKsAABErUAYz8JavXTM5GomqdcmCtISnkI1AkUZTQ9AVCKQFVARQFQFQAAFiLqUBKupUVnfopIzaKuLGNNFxvV1znTU7Exq1nqrrFoSNSp1fkhILgumQk0Fw65a6rHV0SJ1FTVgq6u6lWCGEFgiBYoEBQFQVFKsKIggKACiKlQLXO1bXPqjUjVS1mKjWNBFogupgqJV0QVqVZ16M4miY1brNoYKRpI3IJQgoyAAAACgAgDUpUFQFQAAUSxUQc7GbHW8uViNypI1CLgWi1DVRUAAN+wKlVBAOaY1zyCyNEgrAAAqKAEFQAARRFRUqgAKgAKqAIVy6/YJWvKT5fh0nwUItTP5c/n/YAg19QFRr/wBAE65qCK1x/ltRWaACAAgAKRYgqAAAAJVBFAFR/9k="); 
+  background-color: #cccccc;
+}
+ h1,h2{
+  font-family: 'Times New Roman', sans-serif;
+}
+
+h1{
+  font-size: 30px;
+  line-height: 3;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: black;
+  }
+h2{
+  font-size: 23px;
+  line-height: 1,8;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: rgb(244, 125, 64 );
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+ }
+
+ div{
+  text-align:justify-all;
+  text-justify:values;
+}
+
+ /*Custom design with class*/
+
+ .container{
+  width: 700px;
+  margin:40px auto;
+ }
+
+@media(max-width: 650px){
+  .container{
+    color: purple;
+    width: 350px
+  }
+ }
+
+ @media(max-width: 500px){
+  .container{
+    width: 430px
+  }
+
+ }
+
+ .card-white{
+  background-color: white;
+    padding: 50px;
+    box-shadow: 0px 10px 35px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    text-align: justify-all;
+    margin: 20px;
+ }
+
+.img-circle{
+  border-radius: 51%;
+}
+
+.btn-orange{
+  background-color: #5E83E9;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.btn-orange:hover {
+  background-color: #D3D3D3;
+  color: white;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li{
+  display: inline;
+  padding: 15px;
+}
+
+.list-inline i{
+  font-size: 50px;
+  color: #FFC0CB
+}
+
+.list-inline i:hover {
+  font-size: 50px;
+  color: #000000
+}
+
+.card-white{
+  text-align: center;
+  margin: 20px;
+}
+
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+#onglets
+{
+    font : bold 11px Batang, arial, serif;
+    list-style-type : none;
+    padding-bottom : 24px; /* à modifier suivant la taille de la police ET de la hauteur de l'onglet dans #onglets li */
+    border-bottom : 1px solid #9EA0A1;
+    margin-left : 0;
+}
