@@ -81,13 +81,13 @@ a:hover {
 }
 
 .btn-orange{
-  background-red: red;
+  background-blue: red;
   color: red;
   padding: 15px 30px;
   border-radius: 10px;
 }
 
-.btn-red:hover {
+.btn-blue:hover {
   background-color: #D3D3D3;
   color: red;
 }
