@@ -81,15 +81,15 @@ a:hover {
 }
 
 .btn-orange{
-  background-color: #5E83E9;
-  color: white;
+  background-red: red;
+  color: red;
   padding: 15px 30px;
   border-radius: 10px;
 }
 
-.btn-orange:hover {
+.btn-red:hover {
   background-color: #D3D3D3;
-  color: white;
+  color: red;
 }
 
 .list-inline{
@@ -107,10 +107,6 @@ a:hover {
   color: #FFC0CB
 }
 
-.list-inline i:hover {
-  font-size: 50px;
-  color: #000000
-}
 
 .card-white{
   text-align: center;
